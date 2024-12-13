@@ -1,0 +1,33 @@
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+
+  input, select, button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #0f0f0f;
+    border-radius: 4px;
+  }
+
+  button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #218838;
+  }
+  select:hover {
+    cursor:pointer;
+  }
+  select:hover option:hover {
+    background-color:darkblue;
+    color:yellow;
+  }

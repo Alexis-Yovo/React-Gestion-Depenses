@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('./img/shopping.jpg');
+  background-size: cover;
+  background-repeat: repeat-y;
+
+}
+
+.App {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  text-decoration:underline;
+}
+h1 {
+  color: red;
+}
+
+h2:first-of-type{
+  color: orange;
+
+}
+h2.total {
+color: green;
+}
+
+h3 {
+  color: #090247;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

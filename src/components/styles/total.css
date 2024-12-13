@@ -1,0 +1,24 @@
+.total {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+
+  .total p {
+    font-size: 18px;
+    color: #333;
+  }
+
+  .total ul {
+    padding: 0;
+  }
+
+  .total li {
+    background: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
